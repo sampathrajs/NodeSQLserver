@@ -1,7 +1,6 @@
 module.exports = function(express, db){
     var route = express.Router();
-    var mediclaim = {};
-    const sql = require('mssql');
+    var mediclaim = {};    
 
     mediclaim.getfliter = function(req,res){
         var qq = `select * from Master_Branches;
