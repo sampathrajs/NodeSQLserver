@@ -1,0 +1,21 @@
+{
+  "name": "hrms-server",
+  "version": "1.0.0",
+  "description": "hrms server",
+  "main": "server.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "DSRC-Development Team",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "bunyan": "^1.8.12",
+    "express": "^4.16.3",
+    "json2csv": "^4.1.5",
+    "ldapauth-fork": "^4.0.2",
+    "ldapjs": "^1.0.2",
+    "mssql": "^4.1.0"
+  }
+}
